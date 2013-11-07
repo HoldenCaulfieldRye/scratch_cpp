@@ -18,3 +18,9 @@ nullint: nullint.cpp
 
 objarray: object_array.cpp
 	g++ -Wall -g object_array.cpp -o objarray
+
+cerr: cerr.cpp
+	g++ -Wall -g cerr.cpp -o cerr
+
+trans: transmit_private.cpp
+	g++ -Wall -g transmit_private.cpp -o trans
