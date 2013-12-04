@@ -24,3 +24,42 @@ cerr: cerr.cpp
 
 trans: transmit_private.cpp
 	g++ -Wall -g transmit_private.cpp -o trans
+
+cinws: cinws.cpp
+	g++ -Wall -g cinws.cpp -o cinws
+
+scramble: scramble.cpp
+	g++ -Wall -g scramble.cpp -o scramble
+
+open: openfile.cpp
+	g++ -Wall -g openfile.cpp -o openfile
+
+stat: stat.cpp
+	g++ -Wall -g stat.cpp -o stat
+
+comp: compositeclass.cpp
+	g++ -Wall -g compositeclass.cpp -o comp
+
+num: num.cpp
+	g++ -Wall -g num.cpp -o num
+
+loop: loopupdate.cpp
+	g++ -Wall -g loopupdate.cpp -o loop
+
+mapit: mapIterator.cpp
+	g++ -Wall -g mapIterator.cpp -o mapit
+
+mapit2: mapIterator2.cpp
+	g++ -Wall -g mapIterator2.cpp -o mapitt
+
+dynarray: dynarray.cpp
+	g++ -Wall -g dynarray.cpp -o dynarray
+
+charithmetic: charithmetic.cpp
+	g++ -Wall -g charithmetic.cpp -o charithmetic
+
+statdyn: statToDynArray.cpp
+	g++ -Wall -g statToDynArray.cpp -o statdyn
+
+stringarray: stringarray.cpp
+	g++ -Wall -g stringarray.cpp -o stringarray

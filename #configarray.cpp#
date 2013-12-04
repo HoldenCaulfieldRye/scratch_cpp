@@ -1,0 +1,16 @@
+#include<iostream>
+
+using namespace std;
+
+void showConfig(int array[20]) {
+  for (int i=0; array[i]!=-1; i++)
+    cerr << configArray[i] << ", ";
+  cerr << endl;
+}
+
+int main() {
+
+
+
+  return 0;
+}
